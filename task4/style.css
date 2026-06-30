@@ -1,0 +1,26 @@
+.box1{
+    visibility: block;
+    width: 250px;
+    height: 150px;
+    border: 2px solid black;
+    position: relative;
+     margin: 20px;
+     overflow: auto;
+     cursor: pointer;
+}
+
+.box2{
+    visibility: inline-block;
+    width: 200px;
+    height: 120px;
+    background-color: lightblue;
+    position:absolute;
+    top: 200px;
+    left: 100px;
+    z-index: 10;
+    opacity: 0.9;
+}
+
+.hidden-box{
+    visibility: hidden;
+}
