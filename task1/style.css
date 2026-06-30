@@ -1,0 +1,10 @@
+h1{
+    color: blue;
+    font-size: 40px;
+    font-weight: bold;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 2;
+    text-align: center;
+}
