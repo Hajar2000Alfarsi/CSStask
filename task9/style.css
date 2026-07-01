@@ -1,0 +1,26 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.image-box{
+    border: 2px solid rgb(19, 122, 19);
+    padding: 20px;
+}
+
+img{
+    border: 2px solid gray;
+}
+.cover{
+    object-fit: cover;
+}
+
+.Contain{
+    object-fit: contain;
+}
