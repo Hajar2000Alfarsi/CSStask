@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    font-family:cursive;
+    background-color: blanchedalmond;
+}
+
+header{
+    background-image: url(backgound.jpg);
+    background-size:contain;
+    color: rgb(15, 74, 15);
+    text-align: center;
+    padding: 10px;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(194, 106, 136);
+    padding: 15px;
+}
+
+nav a{
+    color: wheat;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: rgb(242, 242, 77)
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 40px;
+    flex-direction:column;
+}
+
+.card{
+    width: 280px;
+    height: 250px;
+    padding: 20px;
+    background-color: rgb(177, 215, 215);
+    border: 2px solid rgb(65, 59, 59);
+    border-radius: 40px;
+    box-shadow: 0 0 20px rgb(189, 179, 179);
+    text-align: center;
+    line-height: 1.8;
+    opacity: 0.8;
+    transition:0.4s;
+}
+
+.card:hover{
+    transform: scale(1.2);
+}
+
+button{
+     padding:10px 20px;
+
+    background-color:rgb(42, 42, 150);
+
+    color:rgb(236, 225, 225);
+
+    border:none;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+    border-radius: 20px;
+
+}
+
+button:hover{
+    background-color: rgb(223, 122, 122);
+}
+
+footer{
+
+    background:black;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+}
